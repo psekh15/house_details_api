@@ -2,6 +2,9 @@
 
 ## Test New feature: The web app should prompt homeowners with an additional question if we believe their home has a septic system
 
+```
+python3 -m venv venv
+```
 For mac:
 ```
 source venv/bin/activate 
