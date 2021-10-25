@@ -1,0 +1,18 @@
+Test using Postman Mock API tool < https://web.postman.co/>
+GET
+http://127.0.0.1:5000/houseList
+http://127.0.0.1:5000/houseList/house/?street_address=123+Main+St&zipcode=95391
+http://127.0.0.1:5000/houseList/house/2
+POST
+http://127.0.0.1:5000/?street_address=134+Matthew+St&zipcode=93212&sewage=septic
+http://127.0.0.1:5000/?street_address=234+Matthew+St&zipcode=93212&sewage=septic
+
+DELETE
+http://127.0.0.1:5000/houseList/house/?street_address=134+Matthew+St&zipcode=93212
+http://127.0.0.1:5000/houseList/house/6
+PUT
+http://127.0.0.1:5000/houseList/house/1?street_address=123+Main+St&zipcode=95392
+
+http://127.0.0.1:5000/houseList/house/1?street_address=123+Main+St&zipcode=95391
+
+
